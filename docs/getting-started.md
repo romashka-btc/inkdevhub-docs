@@ -22,6 +22,6 @@ ink! Dev Hub encourages more web3 developers to explore and adopt WASM (ink!) sm
 
 ## Overview of ink! Dev Hub Docs
 
-- [**Build**](/docs/build) - Provides the resources you need to start building, testing, deploying, and interacting with smart contracts using ink!.
+- [**Build**](/docs/build) - Provides the resources you need to start building, testing, deploying, and interacting with smart contracts using ink! and Swanky & Drink! tools.
 - [**Learn**](/docs/learn) - A starting point for the ink! developers - to - be with examples, tutorials, and more.
 
