@@ -41,7 +41,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
   - PR and staging environment
       - Commit your changes and push the new branch up to Github (`git add .` and `git commit`, `git push -u origin feat/your-new-branch`)
       - Create a new PR on Github (https://github.com/inkdevhub/inkdevhub-docs)
-      - Wait for feedback from the ink!Hub team team
+      - Wait for feedback from the ink!Hub team
 
 ### Working with images
 
