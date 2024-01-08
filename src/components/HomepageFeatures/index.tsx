@@ -19,8 +19,21 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <Translate>
-          Find all the resources you need to start testing, deploying,
-          and interacting with smart contracts using ink!
+          Discover all the essential resources to begin writing, testing, 
+          deploying, and engaging with smart contracts utilizing ink!
+        </Translate>
+      </>
+    ),
+  },
+    {
+    title: <Translate>Learn</Translate>,
+    link: '/docs/learn/',
+    iconClass: 'docs',
+    description: (
+      <>
+        <Translate>
+          Gain valuable insights and hands-on experience with 
+          smart contract development through tutorial, examples and more.
         </Translate>
       </>
     ),
