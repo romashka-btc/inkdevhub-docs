@@ -32,7 +32,7 @@
   &:hover {
     text-decoration: none;
     letter-spacing: 0.15em;
-    background: #09d3ac;
+    background: #BC82FD;
     box-shadow: 0 0 34px #BC82FD;
     color: white;
     i:before {
@@ -48,7 +48,7 @@
   &:before {
     content: '';
     position: absolute;
-    background: #BC82FD;
+    background: #333333;
     inset: 2px;
   }
   span {
@@ -67,7 +67,7 @@
     left: 80%;
     width: 10px;
     height: 4px;
-    background: #BC82FD;
+    background: #333333;
     transform: translateX(-50%) skewX(325deg);
     transition: 0.5s;
   }
@@ -79,7 +79,7 @@
     left: 20%;
     width: 10px;
     height: 4px;
-    background: #BC82FD;
+    background: #333333;
     transform: translateX(-50%) skewX(325deg);
     transition: 0.5s;
   }
