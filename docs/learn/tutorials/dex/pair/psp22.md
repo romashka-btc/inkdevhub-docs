@@ -56,7 +56,7 @@ overflow-checks = false
 
 In the `lib.rs` file in the contract crate import everything (with `*`) from `openbrush::contracts::psp22` as well as the `Storage` trait and `SpreadAllocate` from ink!
 
-As reminder the `#![cfg_attr(not(feature = "std"), no_std)]` attribute is for [conditional compilation](https://use.ink/faq#what-does-the-cfg_attrnotfeature--std-no_std-at-the-beginning-of-each-contract-mean) and the `#![feature(min_specialization)]` is the feature needed to enable [specialization](../Structure/file-structure.md):
+As reminder the `#![cfg_attr(not(feature = "std"), no_std)]` attribute is for [conditional compilation](https://use.ink/faq#what-does-the-cfg_attrnotfeature--std-no_std-at-the-beginning-of-each-contract-mean) and the `#![feature(min_specialization)]` is the feature needed to enable [specialization](../structure/file-structure.md):
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 #![feature(min_specialization)]
