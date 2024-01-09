@@ -257,7 +257,7 @@ overflow-checks = false
 ```
 
 In the `lib.rs` file, create a factory module with Openbrush contract. Import the `Storage` trait from Openbrush (as well as `ZERO_ADDRESS`) and `SpreadAllocate` from ink!
-As reminder the `#![cfg_attr(not(feature = "std"), no_std)]` attribute is for [conditional compilation](https://use.ink/faq#what-does-the-cfg_attrnotfeature--std-no_std-at-the-beginning-of-each-contract-mean) and the `#![feature(min_specialization)]` is the feature needed to enable [specialization](../Structure/file-structure.md).
+As reminder the `#![cfg_attr(not(feature = "std"), no_std)]` attribute is for [conditional compilation](https://use.ink/faq#what-does-the-cfg_attrnotfeature--std-no_std-at-the-beginning-of-each-contract-mean) and the `#![feature(min_specialization)]` is the feature needed to enable [specialization](../structure/file-structure.md).
 Also import everything (with `*`) from `impls::factory` and `traits::factory`:
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
