@@ -28,7 +28,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="ink! Developer Hub - Official Documentation">
+      description="ink! Dev Hub - Official Documentation">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

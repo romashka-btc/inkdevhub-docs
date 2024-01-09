@@ -1,4 +1,5 @@
 ---
+title: About ink! Dev Hub
 sidebar_position: 1
 ---
 
