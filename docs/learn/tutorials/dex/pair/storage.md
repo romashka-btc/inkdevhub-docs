@@ -8,7 +8,7 @@ If you are starting the tutorial from here, Please checkout this [branch](https:
 
 ## 1. Logics Crate
 
-As described in the [File & Folder structure](../Structure/file-structure.md) section, the Pair business logic will be in the uniswap-v2 logics crate.
+As described in the [File & Folder structure](../structure/file-structure.md) section, the Pair business logic will be in the uniswap-v2 logics crate.
 Let's create (empty) files and folders so your project looks like this:
 
 ```bash
