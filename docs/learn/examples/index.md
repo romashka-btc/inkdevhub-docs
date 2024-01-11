@@ -1,3 +1,5 @@
-We are delighted to welcome you to the educational segment of the ink! Dev Hub Docs.
+# Examples
 
-This section provides comprehensive insights, examples, tutorial and more fore developers with a different level of experience.
+In this part of the ink! Dev Hub documentation, you'll discover a range of examples that illustrate various aspects of ink! smart contract development. 
+
+These examples are designed to provide practical insights and hands-on guidance, helping you understand and apply key concepts effectively in your own projects.
