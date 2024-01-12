@@ -7,7 +7,7 @@ import Figure from "/src/components/figure"
 
 # Overview
 
- <Figure caption="Block Consumption" src={require('/./img/banner-build.jpeg').default } width="100%" /> 
+ <Figure caption="Block Consumption" src={require('./img/banner-build.jpeg').default } width="100%" /> 
 
 Welcome to the Build section of the ink! Dev Hub documentation, your comprehensive guide to developing WASM (ink!) smart contracts within the Polkadot and Kusama ecosystems. Here, you'll find all the tools and resources you need to bring your innovative smart contract ideas to life.
 
