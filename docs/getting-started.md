@@ -1,9 +1,9 @@
+import Figure from "/src/components/figure"
+
 ---
 title: About ink! Dev Hub
 sidebar_position: 1
 ---
-
-import Figure from "/src/components/figure"
 
 # Welcome to the ink! Dev Hub
 
