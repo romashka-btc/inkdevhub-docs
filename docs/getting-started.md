@@ -3,7 +3,7 @@ title: About ink! Dev Hub
 sidebar_position: 1
 ---
 
-# Getting Started
+# Welcome to the ink! Dev Hub
 
 The aim of the ink! Dev Hub is to improve developer tooling around WASM (ink!) smart contracts.
 
