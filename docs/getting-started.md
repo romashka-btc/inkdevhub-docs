@@ -3,6 +3,8 @@ title: About ink! Dev Hub
 sidebar_position: 1
 ---
 
+import Figure from "/src/components/figure"
+
 # Welcome to the ink! Dev Hub
 
  <Figure caption="Welcome to the ink! Dev Hub" src={require('docs/img/banner.png').default } width="100%" /> 
