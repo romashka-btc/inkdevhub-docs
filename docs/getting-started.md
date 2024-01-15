@@ -3,7 +3,12 @@ title: About ink! Dev Hub
 sidebar_position: 1
 ---
 
-# Getting Started
+import Figure from "/src/components/figure"
+
+# Welcome to the ink! Dev Hub
+
+ <Figure caption="Welcome to the ink! Dev Hub" src={require('.//img/banner.png').default } width="100%" /> 
+
 
 The aim of the ink! Dev Hub is to improve developer tooling around WASM (ink!) smart contracts.
 

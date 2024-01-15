@@ -8,11 +8,11 @@ This tutorial targets developers with no experience in ink! and a **basic** leve
 
 | Tutorial                                                                   | Difficulty                     |
 |----------------------------------------------------------------------------|--------------------------------|
-| NFT contract with PSP34            | Intermediate ink! -  Basic Rust       |          
-| Implement Uniswap V2 core DEX | Advanced ink! - Basic Rust |
+| [NFT contract with PSP34](../nft/nft.md)            | Intermediate ink! -  Basic Rust       |          
+| [Implement Uniswap V2 core DEX](../dex/dex.md) | Advanced ink! - Basic Rust |
 
 ### To follow this tutorial you will need:
-- To [set up your ink! environment](https://docs.astar.network/docs/build/environment/ink_environment).
+- To [set up your ink! environment](/docs/learn/build-environment/ink_environment.md).
 - Basic Rust knowledge. [Learn Rust](https://www.rust-lang.org/learn).
 
 ### What will we do?

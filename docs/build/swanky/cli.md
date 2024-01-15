@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import Figure from '/src/components/figure'
+
 # Swanky CLI
 
 Swanky CLI is a Node.js based CLI application that abstracts away and extends the functionality of Polkadot.js, `cargo contract`, and other ink! based smart contract developer tools.
@@ -100,7 +102,7 @@ Passing `help` as an argument and providing it `-n`/`--nested-commands` flag wil
 swanky help --nested-commands
 ```
 
-
+<Figure caption="Full list of commands" src={require('../img/swanky/help.png').default} width="65%" />
 
 Note that every command and subcommand also supports `-h`/`--help` flags to display their usage instructions.
 
@@ -115,13 +117,21 @@ After gathering all the required information, the app will proceed to check your
 ```
 swanky init PROJECT_NAME
 ```
+<Figure caption="Init process" src={require('../img/swanky/init.png').default} width="65%" />
 
+The resulting folder structure should look something like this:
+
+<Figure caption="Folder structure" src={require('../img/swanky/folder-structure.png').default} width="65%" />
 
 If you want to start from a more complete example like those in the swanky-dapps repo, or rmrk-ink, or you want to convert your existing contract to a swanky project, you can use `swanky init --convert` command.
 
 It will prompt you for locations of your contract files, as well as additional crates and tests.
 
 In the last step, you'll be provided a list of files to be copied over and you'll be able to deselect any of them that are maybe not needed.
+
+<Figure caption="Converting an existing project" src={require('../img/swanky/init-convert.png').default} width="65%" />
+
+<Figure caption="Confirming the file list" src={require('../img/swanky/init-convert-confirm.png').default} width="65%" />
 
 :::note
 Swanky will look for a common ink! configuration, and will do it's best to copy everything to equivalent paths, but it is likely that you'll have to adjust some configs and import paths manually after conversion.
@@ -136,6 +146,7 @@ _Resources:_
 
 You can quickly check the presence and versions of required dependencies by running `swanky check` command.
 
+<Figure caption="Verify dependencies" src={require('../img/swanky/check.png').default} width="65%" />
 
 :::info
 For now, you will need to be be in a project folder to run this command.
@@ -159,6 +170,7 @@ You can also mark the account as "production" which will require you to set a pa
 
 Be careful not to use a dev account on live networks, as their mnemonic is stored in plain text in the config!
 
+<Figure caption="Creating and listing accounts" src={require('../img/swanky/acc-create.png').default} width="65%" />
 
 :::tip
 Newly generated accounts that are not the preconfigured dev accounts (Alice, Bob, Charlie...) will have no funds initially, so you'll have to transfer some manually.
@@ -171,6 +183,8 @@ _Resources:_
 ### Interact with contracts
 
 `swanky contract` command offers several subcommands for different interactions with your contracts.
+
+<Figure caption="Different `contract` subcommands" src={require('../img/swanky/contract-commands.png').default} width="65%" />
 
 The command names are self explanatory, and to get more detailed information on using a specific command, you can use the help flag with it:
 
@@ -186,6 +200,8 @@ If you have multiple contracts and wish to compile them all at once, you can pas
 
 Likewise, if you're compiling for production, you need to pass the `--prod` flag.
 
+<Figure caption="Compile all contracts" src={require('../img/swanky/compile.png').default} width="65%"/>
+
 _Resources:_
 
 - [_`contract compile` command usage manual_](https://github.com/AstarNetwork/swanky-cli#swanky-contract-compile-contractname)
@@ -195,6 +211,8 @@ _Resources:_
 Compiling the contract will generate it's metadata too.
 
 Swanky provides `contract explain CONTRACT_NAME` command to get a more human friendly version of that metadata:
+
+<Figure caption="Getting contract metadata information" src={require('../img/swanky/contract-explain.png').default} width="65%"/>
 
 _Resources:_
 
@@ -217,6 +235,8 @@ The types are generated during the compile step and copied to `typedContract/con
 
 Running `swanky contract test CONTRACT_NAME` will detect all `*.test.ts` files in the `tests/contract_name/` directory, and run them sequentially, or in all directories inside `tests/` if you pass the `-a`/`--all` flag.
 
+<Figure caption="Run tests for a contract" src={require('../img/swanky/test.png').default} width="65%"/>
+
 :::tip
 Running the tests programmatically may throw warnings about duplicate dependencies on `@polkadot/*` libraries.
 This occurs because those libraries are included in swanky app itself, as well as in the test files.
@@ -234,7 +254,8 @@ Web based report will be generated and stored in `tests/*/testReports` directory
 ```
 serve PATH_TO_REPORTS
 ```
-
+<Figure caption="Web based test report" src={require('../img/swanky/test-report.png').default} width="65%"/>
+  
 _Resources:_
 
 - [_`swanky contract test` command usage manual_](https://github.com/inkdevhub/swanky-cli#swanky-contract-test-contractname)
@@ -246,6 +267,8 @@ When your contract is compiled and tested, you can deploy it to a local node or 
 You will need to supply account you wish to deploy the contract from (`--account`), and any arguments required by your contract's constructor (`-a`).
 
 By default, your contract will be deployed to a local node, but you can pass a custom network via `-n`/`--network` flag. Available networks are configured in `swanky.config.json` file.
+
+<Figure caption="Deploying the contract" src={require('../img/swanky/deploy.png').default} width="65%"/>
 
 Successfully running the `deploy` command will print out the address your contract is deployed to, as well as save it into `swanky.config.json`
 
@@ -263,6 +286,9 @@ Both commands require `CONTRACT_NAME` and `MESSAGE_NAME` parameters, and for `tx
 
 If the message you're calling requires arguments to be passed, you can do that using `-p`/`--param` flag.
 
+<Figure caption="Calling a query on a contract" src={require('../img/swanky/contract-query.png').default} width="65%"/>
+
+<Figure caption="Calling a transaction on a contract" src={require('../img/swanky/contract-tx.png').default} width="65%"/>
 
 Result of a `query` is straight forward, `OK` followed by what ever the response is.
 
@@ -286,6 +312,7 @@ You can create additional contracts in the same project, using the `contract new
 
 The contract will be referred by `name` when using the relevant contract commands, and you can check the details in `swanky.config.json`
 
+<Figure caption="Adding a new contract" src={require('../img/swanky/contract-new.png').default} width="65%"/>
 
 _Resources:_
 
@@ -299,6 +326,7 @@ Simply running `swanky node start` will start the node, and the node will preser
 
 If you want to reset the node state, use the `swanky node purge` command.
 
+<Figure caption="Starting the swanky node" src={require('../img/swanky/node-start.png').default} width="65%"/>
 
 :::info
 Note that node needs to be running if you are using a default local network with `deploy`, `query` and `tx` commands.

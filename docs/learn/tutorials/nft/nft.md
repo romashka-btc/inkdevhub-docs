@@ -11,12 +11,12 @@ This tutorial is suitable for developers with **intermediate** knowledge of ink!
 
 | Tutorial                                                                   | Difficulty                     |
 |----------------------------------------------------------------------------|--------------------------------|
-| Your First Flipper Contract              | Basic ink! -  Basic Rust       | 
-| Implement Uniswap V2 core DEX| Advanced ink! - Basic Rust |         
+| [Your First Flipper Contract](../flipper-contract/flipper-contract.md)              | Basic ink! -  Basic Rust       | 
+| [Implement Uniswap V2 core DEX](../dex/dex.md) | Advanced ink! - Basic Rust |         
 
 ## How to Start
 To follow this tutorial you will need:
-- To [set up your ink! environment](https://docs.astar.network/docs/build/environment/ink_environment).
+- To [set up your ink! environment](/docs/learn/build-environment/ink_environment.md).
 - Basic Rust knowledge. [Learn Rust](https://www.rust-lang.org/learn)
 - Prior knowledge about ERC721 is helpful but not mandatory.
 
@@ -34,9 +34,9 @@ To follow this tutorial you will need:
 - Event handling.
 
 ## Summary
-I. OpenBrush wizard  
-II. Override mint() method
-III Custom Trait for mint() 
-IV. PayableMint Trait definition 
-V. PayableMint Trait implementation  
-VI. Events
+[I. OpenBrush wizard](./wizard/wizard.md)   
+[II. Override mint() method](./override/override.md)   
+[III Custom Trait for mint()](./customTrait/customtrait.md)   
+[IV. PayableMint Trait definition](./payableMintTrait/payableminttrait.md)   
+[V. PayableMint Trait implementation](./payableMintImpl/payablemintimpl.md)   
+[VI. Events](./events/events.md)

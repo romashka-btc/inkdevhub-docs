@@ -9,7 +9,7 @@ This is step-by-step explanation of the process behind building an ink! smart co
 Flipper is a basic smart contract that allows the user to toggle a boolean value located in storage to either `true` or `false`. When the flip function is called, the value will change from one to the other.
 
 ## Prerequisites
-Please refer to the previous section for the list of prerequisites.
+Please refer to the [previous section](./flipper-contract.md) for the list of prerequisites.
 
 ## Flipper Smart Contract
 In a new project folder, execute the following:
