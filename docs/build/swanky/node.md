@@ -2,7 +2,11 @@
 sidebar_position: 2
 ---
 
+import Figure from "/src/components/figure"
+
 # Swanky Node
+
+ <Figure caption="Build" src={require('../img/swanky-node.jpg').default } width="100%" /> 
 
 Swanky Node is a Substrate based blockchain configured to enable `pallet-contracts` (a smart contract module), and other features that assist local development of Wasm smart contracts.
 
