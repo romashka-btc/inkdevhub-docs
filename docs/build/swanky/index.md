@@ -11,13 +11,13 @@ Swanky Suite is a tool that provides Web3 Wasm dapps developers with an experien
 
 Swanky Suite offers an extensible set of features, allowing developers to:
 
-- Quickly spin up a local contract development node with instant finality (Swanky Node).
-- provide a ready dev environment via prebuilt Docker image and dev-container configuration
-- Easily scaffold new projects using templates for both smart contracts and (soon) front-end dApps.
-- Compile ink! projects and generate TS types.
-- provide Typescript based integration testing simulating interaction from the client-side.
-- Handle and manage network accounts.
-- Deploy smart contracts within the Polkadot ecosystem to networks that support `pallet-contracts`.
+- Quickly spin up a local contract development node with instant finality (Swanky Node);
+- Provide a ready dev environment via prebuilt Docker image and dev-container configuration;
+- Easily scaffold new projects using templates for both smart contracts and (soon) front-end dApps;
+- Compile ink! projects and generate TS types;
+- Provide Typescript based integration testing simulating interaction from the client-side;
+- Handle and manage network accounts;
+- Deploy smart contracts within the Polkadot ecosystem to networks that support `pallet-contracts`;
 - Make arbitrary calls to deployed smart contracts.
 
 ## Architecture Overview
