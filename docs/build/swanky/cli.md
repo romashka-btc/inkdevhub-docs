@@ -6,6 +6,8 @@ import Figure from '/src/components/figure'
 
 # Swanky CLI
 
+ <Figure caption="Build" src={require('./img/swanky-cli.jpg').default } width="100%" /> 
+
 Swanky CLI is a Node.js based CLI application that abstracts away and extends the functionality of Polkadot.js, `cargo contract`, and other ink! based smart contract developer tools.
 It aims to ease development of and interaction with ink! smart contracts and provides simple tools to bootstrap contract environment (project) with contract and integration tests templates, local node and accounts management, smart contracts interaction on both local and remote networks, compatibility checks between the contract pallet and compiler...
 
