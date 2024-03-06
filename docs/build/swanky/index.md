@@ -1,6 +1,11 @@
+import Figure from "/src/components/figure"
+
+
 # Swanky Suite 
 
 Swanky Suite aims to be an "all-in-one" tool for Wasm smart contract developers. It is based on existing tools like `cargo contract CLI` and `polkadot.js` but extends their functionality with many additional features such as smart contract templates, and an instant finality (Swanky) node, which reduces the contract development lifecycle.
+
+ <Figure caption="Build" src={require('../img/astar-swanky.jpg').default } width="100%" /> 
 
 Swanky Suite is a tool that provides Web3 Wasm dapps developers with an experience that is more in-line with what they're familiar with, compared to popular tooling for EVM.
 
