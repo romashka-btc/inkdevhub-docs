@@ -161,7 +161,7 @@ pub struct Contract {
 
 The values of an enum should be referenced as `Enum::A`, `Enum::B`, `Enum::C`.
 
-## Lazy<>
+## Lazy
 
 To understand how `Lazy` works, let’s dive deeper into the concepts behind ink! storage.
 
