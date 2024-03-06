@@ -33,9 +33,9 @@ Source code for both Swanky CLI and Swanky Node are hosted on GitHub:
 
 This documentation's sub-sections on usage of Swanky CLI and Swanky Node have great instructions on how to setup the tool and start using it right away.
 
-`swanky` CLI Github repo with the latest documentation;
+`swanky` CLI Github repo with the latest releases, ink! Dev Hub documentation;
 
-`swanky-node` Github repo with the latest documentation;
+`swanky-node` Github repo with the latest releases, ink! Dev Hub documentation;
 
 `pallet-contracts` documentation on Parity Github;
 
