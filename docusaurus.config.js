@@ -73,7 +73,7 @@ presets: [
             type: 'doc',
             docId: 'getting-started',
             position: 'left',
-            label: 'Site Index',
+            label: 'Go to the Docs',
           },
           {
             href: 'https://github.com/inkdevhub/inkdevhub-docs',
@@ -89,7 +89,7 @@ presets: [
             title: 'Docs',
             items: [
               {
-                label: 'Site Index',
+                label: 'Go to the Docs',
                 to: '/docs/getting-started',
               },
             ],
