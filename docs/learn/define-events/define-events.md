@@ -1,4 +1,6 @@
-# Prerequisites
+# How to define ink! smart contract events
+
+## Prerequisites
 
 Before this tutorial, you should have already completed the [Flipper Tutorial](https://docs.astar.network/docs/tutorials/flipper_tutorial). This tutorial targets developers with no experience in ink! and a basic level in Rust.
 
