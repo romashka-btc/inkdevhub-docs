@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Before this tutorial, you should have already completed the [Flipper Tutorial](https://docs.astar.network/docs/tutorials/flipper_tutorial). This tutorial targets developers with no experience in ink! and a basic level in Rust.
+Before this tutorial, you should have already completed the [Flipper Tutorial](https://docs.inkdevhub.io/docs/learn/tutorials/flipper-contract/flipper). This tutorial targets developers with no experience in ink! and a basic level in Rust.
 
 ## To follow this tutorial you will need:
 
