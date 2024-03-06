@@ -73,7 +73,7 @@ presets: [
             type: 'doc',
             docId: 'getting-started',
             position: 'left',
-            label: 'Go to the Docs',
+            label: 'About ink! Dev Hub',
           },
           {
             href: 'https://github.com/inkdevhub/inkdevhub-docs',
