@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ink! DevHub Official Docs',
-  tagline: 'The official documentation portal for ink! developers',
+  tagline: 'The Official Documentation of the ink! Dev Hub',
   url: 'https://docs.inkdevhub.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
