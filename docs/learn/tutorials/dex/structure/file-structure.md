@@ -36,7 +36,7 @@ Therefore, the only solution, in ink!, is to implement an omnibus contract with 
 
 In order to organise the business logic into different files, OpenBrush uses [specialization](https://github.com/rust-lang/rfcs/pull/1210) that permits multiple `impl` blocks to be applied to the same type.  
 With OpenBrush, you can define as many Trait and generic implementations as are needed, which allows you to split up your code to more easily implement it into your contract. Of course, specialization also allows you to override a default implementation (if the method or impl is specialized with the [`default`](https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md#the-default-keyword) keyword).   
-So you define a Trait and a generic implementation in a crate and within the contract you implement this Trait. If this impl block is empty `{}` specialization will implement the most specific implementation, which is the one you defined in the file. Every generic implementation in Openbrush (PSP22, PSP34, ..) uses the `default` keyword that makes these functions *overrideable*.
+So you define a Trait and a generic implementation in a crate and within the contract you implement this Trait. If this impl block is empty `{}` specialization will implement the most specific implementation, which is the one you defined in the file. Every generic implementation in Openbrush (PSP22, PSP34, ..) uses the `default` keyword that makes these functions *overridable*.
 
 Define your Trait in a file:
 
